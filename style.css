@@ -1,0 +1,859 @@
+body {
+    width: 1920px;
+
+}
+
+.main-container {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+}
+
+
+.eclipse {
+    display: block;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.container-div {
+    position: relative;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(325deg, rgba(255, 255, 255, 1) 5%, rgb(214, 240, 245) 50%, rgb(241, 241, 210) 78%, rgb(255, 255, 255) 100%);
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-nav {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+.name-h2 {
+    position: relative;
+    top: 3.5rem
+}
+
+.right-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+    padding: 4rem;
+}
+
+
+/* ==============> Sec-2 <==============*/
+
+.container-workspace {
+    display: flex;
+    padding: 3rem 3rem 0 3rem;
+
+}
+
+.workspace {
+    flex: 1;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    padding: 1.5rem .5rem 1.2rem 2rem;
+
+
+}
+
+.workspace-h1 {
+    font-size: 3.5rem;
+    display: inline-block;
+    line-height: 4rem;
+    width: 475px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* -------> img-container div <-------- */
+
+.img-container {
+    position: relative;
+    flex: 2;
+}
+
+.img-1 {
+    display: inline-block;
+}
+
+.img-2 {
+    border-radius: 500px 500px 0 0;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+.img-3 {
+    position: absolute;
+    left: 17rem;
+    top: -2.5rem;
+}
+
+.img-4 {
+    position: absolute;
+    top: 15rem;
+    left: 25.9rem;
+}
+
+.img-5 {
+    position: absolute;
+    top: 8rem;
+    left: 34rem;
+}
+
+.img-6 {
+    position: absolute;
+    bottom: 0;
+    left: 32rem;
+}
+
+
+/* --------> Ellipse Section <-------- */
+
+.elli-div {
+    display: flex;
+    position: relative;
+    top: 11rem;
+
+
+}
+
+.elli-pic {
+    flex: 1;
+    position: relative;
+
+}
+
+.elli-pic img {
+    position: absolute;
+}
+
+.elli-p {
+    flex: 1;
+    font-size: 0.8rem;
+    position: absolute;
+    left: 12.2rem;
+    top: .8rem;
+}
+
+
+/* ==========> Glass Effect <=========== */
+
+.glass-efect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48.6rem;
+    height: 6.4rem;
+    position: absolute;
+    bottom: 5.5rem;
+    left: 5rem;
+    color: #989898;
+    font-size: 1.2rem;
+
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.38);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.city {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.location {
+    flex: 1;
+    text-align: center;
+}
+
+.schedule {
+    flex: 1;
+    text-align: center;
+}
+
+.schedule-button {
+    padding: 1rem 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.7159px;
+    color: white;
+    background-color: #FD5B2F;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* ----------> Logo <-------------- */
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+    gap: 2rem;
+    padding: 4rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(173deg, rgba(255, 255, 255, 1) 0%, rgb(214, 240, 245)0%, rgba(255, 255, 255, 1) 54%);
+}
+
+
+/* =================> Services Section Started <================== */
+
+
+.services-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(251, 240, 214, 1) 0%, rgba(251, 240, 214, 1) 5%, rgba(255, 255, 255, 1) 61%);
+}
+
+.services-container {
+    display: flex;
+    padding: 6rem 4rem 4rem 4rem;
+    margin: 0 0 0 0;
+}
+
+
+/* ------------> Service img started <------------- */
+
+.service-img {
+    flex: 1;
+    padding: 4rem 2.5rem;
+    position: relative;
+
+}
+
+.service-img-1 {
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem;
+
+}
+
+.service-img-2 {
+    border-radius: 300px 300px 0 0;
+    left: 1rem;
+    top: 1rem;
+}
+
+.service-img-3 {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 6rem;
+}
+
+.service-img-4 {
+    width: 90px;
+    position: absolute;
+    bottom: 7rem;
+    right: 9rem;
+}
+
+.service-img-5 {
+    position: absolute;
+    bottom: 10.6rem;
+    right: 12.8rem;
+    z-index: 1;
+}
+
+.service-img-6 {
+    position: absolute;
+    bottom: 12.6rem;
+    right: 14.5rem;
+    z-index: 2;
+}
+
+.service-img-7 {
+    position: absolute;
+    bottom: 13.2rem;
+    right: 14.1rem;
+    z-index: 3;
+}
+
+.service-img-8 {
+    position: absolute;
+    bottom: 12.5rem;
+    right: 11rem;
+}
+
+.service-img-9 {
+    position: absolute;
+    bottom: 12rem;
+    right: 9.1rem;
+}
+
+/* --------------> Services img ended <---------------- */
+
+
+/* --------------> Services des started <---------------- */
+
+.service-des {
+    flex: 1;
+    align-self: center;
+}
+
+.p-service {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FD5B2F;
+    margin: 7rem 0 0 1rem;
+}
+
+.h1-des {
+    margin: 1rem 0 2.5rem 1rem;
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+    color: #000000;
+}
+
+.p-des {
+    margin: 2.5rem 0 2.5rem 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.6711px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.button-des {
+    position: relative;
+    margin: 5rem 0 1rem 1rem;
+}
+
+.l-button {
+    padding: 1rem 2rem;
+    font-style: normal;
+    margin-right: 4rem;
+    font-weight: 500;
+    font-size: 16.7159px;
+    color: white;
+    background-color: #FD5B2F;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-img-1 {
+    position: absolute;
+    top: 0.4rem;
+
+}
+
+.btn-img-2 {
+    position: absolute;
+    top: 1.15rem;
+    left: 16.2rem;
+}
+
+.r-button {
+    margin-left: 3rem;
+    font-size: 16.7159px;
+    line-height: 20px;
+    color: #FD5B2F;
+    background-color: transparent;
+    border: none;
+}
+
+
+/* =================> Services Section Ended <================== */
+
+
+/* =================> Vision Section Started <================== */
+
+.vision-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+.vision-container {
+    display: flex;
+    padding: 9rem 4rem;
+    background: rgb(251, 240, 214);
+    background: linear-gradient(56deg, rgba(251, 240, 214, 1) 0%, rgba(255, 255, 255, 1) 32%);
+}
+
+
+/* -----------> Vision des started <-------------- */
+
+.vision-des {
+    padding: 1rem;
+    flex: 1;
+}
+
+.p-vision {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FD5B2F;
+    margin: 0 0 0 1rem;
+}
+
+
+.h1-vision-des {
+    margin: 1rem 0 1.5rem 1rem;
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+    color: #000000;
+
+}
+
+.p-vision-des {
+    height: 8rem;
+    margin: 1rem 0 0 1rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.6711px;
+    line-height: 38px;
+    color: #000000;
+}
+
+/* table,
+th,
+td {
+    text-align: start;
+}
+
+tr {
+    list-style: disc;
+}
+
+th {
+    font-size: 1.2rem;
+    padding: 1.8rem 0 0.8rem 1rem;
+    list-style: circle;
+
+}
+
+td {
+    font-size: 1rem;
+    padding: 0 2rem 0 1rem;
+} */
+
+
+.vision-table {
+    padding-bottom: 3rem;
+}
+
+ul {
+    padding-left: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+li {
+    list-style: none;
+    padding: 0 0 0.8rem 0;
+    font-size: 0.8rem;
+}
+
+.li-1 {
+    list-style-image: url(./images/vision/Vector.png);
+    font-size: 1rem;
+    padding: 1rem 0 0.8rem 0;
+    font-weight: 600;
+}
+
+.li-2 {
+    list-style-image: url(./images/vision/Vector\ \(1\).png);
+    font-size: 1rem;
+    padding: 1rem 0 0.8rem 0;
+    font-weight: 600;
+}
+
+.li-3 {
+    list-style-image: url(./images/vision/XMLID\ 753.png);
+    font-size: 1rem;
+    padding: 1rem 0 0.8rem 0;
+    font-weight: 600;
+}
+
+/* li:nth-child(3) {
+    list-style-image: url(./images/vision/Vector.png);
+} */
+
+.vision-button {
+    padding: 1rem 2rem;
+    font-style: normal;
+    margin: 1rem;
+    margin-right: 4rem;
+    font-weight: 500;
+    font-size: 16.7159px;
+    color: white;
+    background-color: #FD5B2F;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* -----------> Vision des ended <-------------- */
+
+/* -----------> Vision img started <-------------- */
+
+.vision-img {
+    flex: 1;
+}
+
+.bg-img {
+    height: 100%;
+    position: relative;
+    background-image: url(./images/vision/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+}
+
+
+.bg-img-1 {
+    position: absolute;
+    left: 4.5rem;
+    top: -3.5rem;
+
+}
+
+.bg-img-2 {
+    position: absolute;
+    bottom: -1.5rem;
+    left: -.75rem;
+
+}
+
+.bg-img-3 {
+    position: absolute;
+    bottom: 13.2rem;
+    right: 2.2rem;
+
+}
+
+.bg-img-4 {
+    position: absolute;
+    right: 9.8rem;
+    top: -7rem;
+}
+
+/* =================> Vision Section Ended <================== */
+
+
+/* =================> Solution Section Started <================== */
+
+.solution-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+.solution-container {
+    display: flex;
+    padding: 2rem 0 5rem 0;
+    background: rgb(251, 240, 214);
+    background: linear-gradient(140deg, rgba(251, 240, 214, 1) 0%, rgba(255, 255, 255, 1) 32%);
+}
+
+.solution-des {
+    flex: 1;
+    padding: 1rem 4rem;
+}
+
+.solution-img {
+    flex: 1;
+    padding: 1rem 0 1rem 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+/* =================> Solution Section Ended <================== */
+
+/* =================> Comfort Section Started <================== */
+
+.comfort-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+.comfort-container {
+    padding: 2rem 0 5rem 0;
+}
+
+.comfort-des {
+    padding: 1rem 4rem;
+    text-align: center;
+}
+
+.p-comfort {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FD5B2F;
+    margin: 7rem 0 0 1rem;
+}
+
+.h1-comfort {
+    margin: 1rem 0 2.5rem 1rem;
+    font-size: 3.3rem;
+    line-height: 4.5rem;
+    color: #000000;
+}
+
+
+
+/* -----------> Image Section <--------------- */
+
+.img-comfort-container {
+    display: flex;
+    gap: 1rem;
+    padding: 0 3rem;
+}
+
+.img-comfort {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.ic {
+    padding-bottom: 1rem;
+}
+
+.com-h {
+    padding: 1rem 0;
+}
+
+.com-p {
+    line-height: 1.5rem;
+    font-size: .8rem;
+}
+
+.ic-star {
+    position: absolute;
+    right: 7.3rem;
+    top: 3.5rem;
+}
+
+
+
+/* =================> Comfort Section Ended <================== */
+
+
+/* =================> Image Section Started <================== */
+
+
+.gallery-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+
+.gallery-container {
+    padding: 2rem 1rem 5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.gallery-left {
+    padding: 1rem 1rem 1rem 4rem;
+    flex: 1;
+}
+
+
+.gel-p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FD5B2F;
+    padding: 0 0 0 1rem;
+}
+
+
+.gel-h {
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 3.3rem;
+    line-height: 4rem;
+    color: #000000;
+}
+
+.gel-img-top {
+    padding: 1rem 0 1rem 1rem;
+    gap: 1rem;
+}
+
+.gel-img1 {
+    padding: 0 2rem 0 0;
+}
+
+.gel-img2 {
+    padding: 0 0 0 0;
+}
+
+
+.gallery-right {
+    flex: 1;
+}
+
+
+/* =================> Image Section Ended <================== */
+
+
+/* =================> Member Section Started <================== */
+
+.member-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+}
+
+.member-container {
+    padding: 2rem 1rem 5rem 4rem;
+    display: flex;
+}
+
+.member-des {
+    flex: 1;
+    padding: 0 1rem;
+
+}
+
+.sign-up-button {
+    padding: 1rem 2rem;
+    font-style: normal;
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: 16.7159px;
+    color: white;
+    background-color: #FD5B2F;
+    border: 1px solid #FD5B2F;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.visit-button {
+    font-size: 16.7159px;
+    padding: 1rem 2rem;
+    color: #FD5B2F;
+    border: 1px solid #FD5B2F;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+/* -------------> Member Image Section <------------ */
+
+.member-img {
+    flex: 1;
+    background-image: url(./images/member/Rectangle\ 60.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 2rem 3rem;
+}
+
+
+.img-top {
+    width: 27rem;
+    position: relative;
+    left: 4rem;
+    top: 4.2rem;
+}
+
+
+/* =================> Member Section Ended <================== */
+
+
+/* =================> Bottom Section Started<================== */
+
+.bottom-section {
+    width: 74%;
+    margin: auto;
+    position: relative;
+    background: rgb(255, 210, 194);
+    background: linear-gradient(0deg, rgb(253, 225, 214) 0%, rgba(255, 255, 255, 1) 68%);
+}
+
+
+.bottom-container {
+    display: flex;
+    padding: 5rem 1rem 5rem 4rem;
+
+}
+
+
+.bottom-des {
+    flex: .7;
+    padding: 2rem;
+}
+
+.bottom-des h2 {
+    padding: 1rem 0;
+}
+
+.bottom-des p {
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+
+.bottom-table {
+    flex: 2;
+    padding: 2rem;
+}
+
+.bottom-table th {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FD5B2F;
+    padding: 1rem 4rem;
+    text-align: start;
+}
+
+.bottom-table td {
+    padding: 1rem 4rem;
+    gap: 1rem;
+}
+
+.icon-1 {
+    width: 2.5rem;
+    padding: 0;
+}
+
+
+.small {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    color: rgb(78, 78, 78);
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+/* =================> Bottom Section Ended <================== */
